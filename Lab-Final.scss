@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    place-items:center;
+
+}
+
+.main{
+    
+    //background-color: red;
+    height: 117vh;
+    width: 60vw;
+    box-shadow: 1px 3px 5px 5px rgba(156,154,154,0.75);
+-webkit-box-shadow: 1px 3px 5px 5px rgba(156,154,154,0.75);
+-moz-box-shadow: 1px 3px 5px 5px rgba(156,154,154,0.75);
+    h1{
+        margin-left: 2rem;
+    }
+    .first{
+        //background-color: blue;
+        height: 40vh;
+        width: 60vw;
+        display: grid;
+        grid-template-columns: 30rem 1fr 1fr;
+        
+
+        .info{
+            //background-color: rgb(112, 104, 104);
+            padding: 2rem;
+            h2{
+               margin-bottom: 8px; 
+            }
+            span{
+                color: blue
+            }
+        }
+        .image{
+            //background-color: rgb(218, 83, 83);
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+    }
+    .second{
+        height: 60vh;
+        width: 60vw;
+        display: grid;
+        grid-template-columns: 2rem 1fr 1fr 1fr ;
+       // background-color: rgb(143, 46, 143);
+        .classes{
+            grid-column: 2/3;
+            margin:1rem;
+            line-height: 35px;
+            //background-color: rgb(212, 168, 205);
+            .kala{color: blue;}
+        }
+        .title{
+            margin:1rem;
+            line-height: 35px;
+            //background-color: rgb(223, 135, 179);
+            h3{
+                margin-bottom: 4rem;
+            
+            }
+
+        }
+        .extra{
+            //background-color: rgb(199, 131, 131);
+        h2{
+            margin-bottom: 1rem;
+        }
+        ul{
+            margin-left: 2rem;
+            line-height: 1.5rem;
+        }
+        }
+
+    }
+    .last{
+        margin-left: 2rem;
+        .email{
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .msg{
+            width: 40vw;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        button{
+            padding: 0.5rem;
+        }
+    }
+}

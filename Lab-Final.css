@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+}
+
+.main {
+  height: 117vh;
+  width: 60vw;
+  box-shadow: 1px 3px 5px 5px rgba(156, 154, 154, 0.75);
+  -webkit-box-shadow: 1px 3px 5px 5px rgba(156, 154, 154, 0.75);
+  -moz-box-shadow: 1px 3px 5px 5px rgba(156, 154, 154, 0.75);
+}
+
+.main h1 {
+  margin-left: 2rem;
+}
+
+.main .first {
+  height: 40vh;
+  width: 60vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30rem 1fr 1fr;
+      grid-template-columns: 30rem 1fr 1fr;
+}
+
+.main .first .info {
+  padding: 2rem;
+}
+
+.main .first .info h2 {
+  margin-bottom: 8px;
+}
+
+.main .first .info span {
+  color: blue;
+}
+
+.main .first .image {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.main .second {
+  height: 60vh;
+  width: 60vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2rem 1fr 1fr 1fr;
+      grid-template-columns: 2rem 1fr 1fr 1fr;
+}
+
+.main .second .classes {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  margin: 1rem;
+  line-height: 35px;
+}
+
+.main .second .classes .kala {
+  color: blue;
+}
+
+.main .second .title {
+  margin: 1rem;
+  line-height: 35px;
+}
+
+.main .second .title h3 {
+  margin-bottom: 4rem;
+}
+
+.main .second .extra h2 {
+  margin-bottom: 1rem;
+}
+
+.main .second .extra ul {
+  margin-left: 2rem;
+  line-height: 1.5rem;
+}
+
+.main .last {
+  margin-left: 2rem;
+}
+
+.main .last .email {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main .last .msg {
+  width: 40vw;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.main .last button {
+  padding: 0.5rem;
+}
+/*# sourceMappingURL=Lab-Final.css.map */
